@@ -4,7 +4,10 @@ from Class.Joueur.Joueur import Joueur
 
 class Jeu:
 
-    def __init__(self, nb_Joueur, nb_Carte):
+    def __init__(self):
+        nb_Joueur = self.define_nb_Joueur()
+        nb_Carte = self.define_nb_Carte()
+
         if 3 <= nb_Joueur <= 5:
             self.nb_Joueur = nb_Joueur
         else:
@@ -12,7 +15,9 @@ class Jeu:
         self.nb_Carte = nb_Carte
         self.joueurs = []
 
-    def define_nb_Joueur(Null):
+        self.initialisation()
+
+    def define_nb_Joueur(self):
         while True:
             try:
                 nb_Joueur = int(input("Entrez le nombre de joueurs (3 à 5): "))
@@ -25,7 +30,7 @@ class Jeu:
 
         return nb_Joueur
 
-    def define_nb_Carte(Null):
+    def define_nb_Carte(self):
         while True:
             try:
                 nb_Carte = int(input("Entrez le nombre de cartes par joueur: "))
@@ -73,14 +78,9 @@ class Jeu:
             print(joueur)
             print("########################################## \n")
 
-            choix = input("Choisissez une, 2, ou 3 de vos cartes avec un chiffre, ou faite pass avec 'p', ou 'q' pour quitter")
-            if choix.lower() == 'q':
-                print(f"Jeu interrompu par {joueur.nom}.")
-                exit(0)
-            elif choix.lower() == 'p':
-                joueur.passer()
-            else:
-                pass
+            joueur.saisir_coup()
+
+        Joueur.nb_carte_autorise = None
 
 
     def verif_fin_jeu(self):
