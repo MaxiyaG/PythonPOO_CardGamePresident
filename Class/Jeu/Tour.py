@@ -3,7 +3,7 @@ File : Tour.py
 Description : Ce fichier définit la classe Tour, qui représente un tour dans le jeu.
               Chaque instance de Tour gère le déroulement d'un tour, y compris la vérification de la victoire,
               Cette instance gére la saisie d'un coup d'un joueur.
-Author : GUNDUZ Maxime / M'PEMBELE Dieuleveut / Aniss
+Author : GUNDUZ Maxime / M'PEMBELE Dieuleveut / GUEDJALI Aniss
 Date : 28/04/2024
 """
 from Class.Joueur.Joueur import Joueur
@@ -72,13 +72,13 @@ class Tour:
             return previous_coup
 
         if len(self.jeu.joueurs) - len(self.jeu.tabWin) == self.jeu.passage_succesif:
-            print("\nVous controller le jeu !")
+            print("\nVous controller le jeu !\nTous les autres joueurs ont passé leur tour.\n")
             previous_coup = None
             self.jeu.nb_carte_autorise = None
             self.nb_carte_autorise = None
 
         elif self.jeu.dernierAvoirJouer == self.joueur:
-            print("\nVous controller le jeu !")
+            print("\nVous controller le jeu !\nVous etes le dernier joueur a avoir jouer.\n")
             previous_coup = None
             self.jeu.nb_carte_autorise = None
             self.nb_carte_autorise = None
@@ -96,7 +96,7 @@ class Tour:
                 print(f"\nVous devez jouer {self.nb_carte_autorise} cartes.")
 
             choix = input(
-                "\nChoisissez 1, 2, ou 3 de vos cartes par rapport au POSITIONS DES CARTES (séparées par des ',' (Exemple 1,2,3))\n"
+                "\nChoisissez 1, 2, ou 3 de vos cartes par rapport aux POSITIONS DES CARTES (séparées par des ',' (Exemple 1,2,3))\n"
                 "Ou tapez 'p' pour passer votre tour, ou 'q' pour quitter le jeu: \n")
 
             if choix.lower() == 'p':

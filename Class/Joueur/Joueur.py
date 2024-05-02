@@ -2,7 +2,7 @@
 File : Joueur.py
 Description : Ce fichier définit la classe Joueur, qui représente un joueur.
               Chaque joueur a un numéro, un nom et une main de cartes.
-Author : GUNDUZ Maxime / M'PEMBELE Dieuleveut / Aniss
+Author : GUNDUZ Maxime / M'PEMBELE Dieuleveut / GUEDJALI Aniss
 Date : 28/04/2024
 """
 

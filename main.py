@@ -1,7 +1,7 @@
 """
 File : main.py
 Description : Ce code crée une instance de la classe Jeu à partir du module Jeu.
-Author : GUNDUZ Maxime / M'PEMBELE Dieuleveut / Aniss
+Author : GUNDUZ Maxime / M'PEMBELE Dieuleveut / GUEDJALI Aniss
 Date : 28/04/2024
 """
 

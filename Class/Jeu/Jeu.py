@@ -3,7 +3,7 @@ File : Jeu.py
 Description : Ce fichier définit la classe Jeu, qui représente le jeu du Président.
               Chaque instance de Jeu gère le déroulement d'une partie, y compris l'initialisation du jeu,
               la définition du nombre de joueurs et de cartes, la gestion des tours et la vérification de la fin du jeu.
-Author : GUNDUZ Maxime / M'PEMBELE Dieuleveut / Aniss
+Author : GUNDUZ Maxime / M'PEMBELE Dieuleveut / GUEDJALI Aniss
 Date : 28/04/2024
 """
 
@@ -302,9 +302,9 @@ class Jeu:
         print("\nClassement final des joueurs :")
         for i, joueur in enumerate(self.tabWin):
             if i == 0:
-                print(f"Le gagnant est {joueur.nom} !")
+                print(f"Le President est {joueur.nom} !")
             elif i == len(self.tabWin) - 1:
-                print(f"Le perdant est {joueur.nom}.")
+                print(f"Le Paysan est {joueur.nom}.")
             else:
                 print(f"{i + 1}. {joueur.nom}")
 
