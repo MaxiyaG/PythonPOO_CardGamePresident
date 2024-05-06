@@ -3,7 +3,7 @@ File : Tour.py
 Description : Ce fichier définit la classe Tour, qui représente un tour dans le jeu.
               Chaque instance de Tour gère le déroulement d'un tour, y compris la vérification de la victoire,
               Cette instance gére la saisie d'un coup d'un joueur.
-Author : GUNDUZ Maxime / M'PEMBELE Dieuleveut / GUEDJALI Aniss
+Author : MaxiyaG
 Date : 28/04/2024
 """
 from Class.Joueur.Joueur import Joueur
