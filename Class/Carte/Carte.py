@@ -2,7 +2,7 @@
 File : Carte.py
 Description : Ce fichier définit la classe Carte, qui représente une carte.
               Chaque carte a une valeur, un symbole, une puissance et une position.
-Author : GUNDUZ Maxime / M'PEMBELE Dieuleveut / GUEDJALI Aniss
+Author : MaxiyaG
 Date : 28/04/2024
 """
 class Carte:
