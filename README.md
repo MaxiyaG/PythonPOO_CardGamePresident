@@ -1,3 +1,7 @@
+## Développeur : 
+- MaxiyaG
+- Site Web : https://maxiya-web.vercel.app/
+ 
 # Jeu du Président
 
 Ce projet est une implémentation du jeu de cartes populaire, le Président, en Python. Il a été développé par MaxiyaG.
