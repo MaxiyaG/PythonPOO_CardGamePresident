@@ -3,7 +3,7 @@ File : Jeu.py
 Description : Ce fichier définit la classe Jeu, qui représente le jeu du Président.
               Chaque instance de Jeu gère le déroulement d'une partie, y compris l'initialisation du jeu,
               la définition du nombre de joueurs et de cartes, la gestion des tours et la vérification de la fin du jeu.
-Author : GUNDUZ Maxime / M'PEMBELE Dieuleveut / GUEDJALI Aniss
+Author : MaxiyaG
 Date : 28/04/2024
 """
 
@@ -94,10 +94,7 @@ class Jeu:
         print("##########################################\n")
 
         print("- Développeur (2024) :")
-        print("- GUNDUZ Maxime\n"
-              "- M'PEMBELE Dieuleveut\n"
-              "- Aniss\n"
-              "Sous la supervision de l'université Sorbonne Paris Nord par Mme MARIN Julie (enseignante)\n")
+        print("- MaxiyaG\n")
 
         while True:
             print("##########################################")
