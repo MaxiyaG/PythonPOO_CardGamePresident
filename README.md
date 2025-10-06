@@ -1,6 +1,5 @@
 ## Développeur : 
 - MaxiyaG
-- Site Web : https://maxiya-web.vercel.app/
  
 # Jeu du Président
 
